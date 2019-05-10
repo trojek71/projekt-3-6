@@ -157,4 +157,12 @@ li a {
 .e-commerce {
   text-align: center;
 }
+
+/* PORTFOLIO*/
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
