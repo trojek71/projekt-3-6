@@ -29,9 +29,9 @@ font-family: $font-text;
     background-image: url(/images/apple-black-and-white-iphone-9045.jpg);
     background-size: cover;
     width:100%;
-    height:60vh;
     margin-left:0;
     margin-left:0;
+    padding-bottom: 50px;
 }
 
 .row a{
@@ -88,12 +88,10 @@ font-family: $font-text;
     font-family: 'Pacifico', cursive;
     margin:0;
     font-size:30px;
-    //color:#2980b9;
 }
 .page-subtitle{
     font-size:50px;
     margin:0;
-    //color:#2c3e50;
 }
 
 .btn {
@@ -136,9 +134,14 @@ font-family: $font-text;
 /*SERWICES*/
 
 .services{
-    padding:60px;
-    height:600px;
-}
+    //padding:60px;
+    //height:600px;
+   
+    background:#bdc3c7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+
 .service-title{
     margin-left:0;
     margin-top: 0;
@@ -185,6 +188,7 @@ font-family: $font-text;
     padding-bottom: 100px;
 }
 
+
 .card img{
     width: 100%;
     height: 300px;
@@ -199,28 +203,40 @@ font-family: $font-text;
 /*FOOTER*/
 .social-media li{
     list-style-type: none;
+    font-size: 30px;
+    
+    
 }
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    
     width: 50px;
-    text-align: center;
+    height: 50px;
     text-decoration: none;
-    margin: 5px 2px;
     border-radius:50%;
   }
-  .fa:hover {
-    opacity: 0.7;
-  }
+  
 .fa-twitter,.fa-facebook,.fa-pinterest, .fa-instagram {
     background: black;
     color: white;
+    margin-top:0;
+    margin-bottom: 0; 
+    
+    
   }
+  
   .freebies{
-    text-align: center;
+    text-align: left;
     margin-top:20px; 
   }
   .footer{
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .linki li{
+    //align-items: left;
+    margin-left:5px; 
+  }
+  .linki *{
+    display: flex;
+    align-items: center;
   }
