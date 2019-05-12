@@ -144,6 +144,10 @@ li a {
   margin-left: 45%;
 }
 
+.service .col-lg-4, .col-m-12 {
+  padding-bottom: 50px;
+}
+
 .card-body {
   margin-left: 5%;
   margin-right: 5%;
@@ -164,6 +168,10 @@ li a {
   background: #ecf0f1;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.portfolio .col-lg-4 {
+  padding-bottom: 50px;
 }
 
 .card img {
