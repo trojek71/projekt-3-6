@@ -142,7 +142,7 @@ font-family: $font-text;
 .service-title{
     margin-left:0;
     margin-top: 0;
-    margin-bottom:35px;
+    margin-bottom:75px;
     text-align: center;
     color:#2c3e50;
     line-height: 1.5;
@@ -155,6 +155,7 @@ font-family: $font-text;
 .service-title .page-subtitle{
     font-size:15px;
     font-family: 'Ruda', Sans-Serif;
+    color:#95a5a6;
 }
 
 
@@ -219,6 +220,11 @@ font-family: $font-text;
 .e-commerce {
     text-align: center; 
 }
+.services p{
+    color:#95a5a6;
+}
+
+
 
 /* PORTFOLIO*/
 
@@ -230,6 +236,7 @@ font-family: $font-text;
 
 .portfolio .col-lg-4{
     padding-bottom: 50px;
+    
 }
 
 .card img{
@@ -241,6 +248,13 @@ font-family: $font-text;
 .card{
     text-align: center;
     font-size:15px;
+    background:white;
+    padding-bottom: 20px;
+
+}
+
+.portfolio .card-body p{
+    color:#95a5a6;
 }
 
 /*FOOTER*/
@@ -290,6 +304,9 @@ font-family: $font-text;
   }
   .linki *{
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
+  }
+
+  .freebies a{
+    color:#34495e;
   }
