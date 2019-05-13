@@ -79,7 +79,7 @@ font-family: $font-text;
       font-family: 'Pacifico', cursive;
       font-size: 40px;
   }
-  .col-7 a{
+  .col-9 a{
     color:#ecf0f1;
     text-decoration: none; 
 }
@@ -107,7 +107,7 @@ font-family: $font-text;
     cursor: pointer;
     border-width: 2px;
     border-style: solid;
-    background-color: inherit;
+    background-color: #f1c40f;
     background-position: 100% 0;
     background-size: 300%; 
     transition: $transition;
@@ -119,7 +119,7 @@ font-family: $font-text;
 }
 
 .btn-one {
-  border-color: $text-color;   
+  border-color: #f1c40f;   
   color: $text-color; 
   background-image: linear-gradient(90deg, #f1c40f 50%, transparent 50%);
 }
