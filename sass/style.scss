@@ -24,7 +24,7 @@ line-height: 1.7;
 font-family: $font-text;
 }
 
-.navigation {
+.hero {
     
     background-image: url(/images/apple-black-and-white-iphone-9045.jpg);
     background-size: cover;
@@ -157,11 +157,52 @@ font-family: $font-text;
     font-size:15px;
     font-family: 'Ruda', Sans-Serif;
 }
-.fa-shopping-basket, .fa-laptop-code, .fa-key{
-    color: #f1c40f;
-    font-size:30px;
-    margin-left:45%;
+
+
+.row  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
+.sh-ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-icon {
+    
+    background: white;
+    border: solid;
+    border-color:#f1c40f;
+    border-radius:50%; 
+    height:50px;
+    width:50px;
+    margin: 0 0 0 5px; 
+    
+}
+
+
+.shopping-icon a{
+    border-color:#f1c40f;
+    color:#f1c40f;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-left:13px;
+   
+
+}
+/*.fa-shopping-basket, .fa-laptop-code, .fa-key{
+    color: #f1c40f;
+    font-size:20px;
+    //margin-left:45%;
+    display: table-cell;
+    vertical-align: center;
+   
+}*/
 
 .service .col-lg-4, .col-m-12{
     padding-bottom: 50px;
@@ -171,7 +212,7 @@ font-family: $font-text;
     margin-left:5%;
     margin-right:5%;
 }
-.card-body .h2{
+.card-body .h2, .shopping-icon{
     margin-left:5%;
     margin-right:5%;
     text-align: center;
