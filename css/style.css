@@ -160,8 +160,8 @@ li a {
   border: solid;
   border-color: #f1c40f;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   margin: 0 0 0 5px;
 }
 
@@ -172,6 +172,7 @@ li a {
   vertical-align: middle;
   text-align: center;
   padding-left: 13px;
+  font-size: 40px;
 }
 
 /*.fa-shopping-basket, .fa-laptop-code, .fa-key{
