@@ -196,14 +196,7 @@ font-family: $font-text;
    
 
 }
-/*.fa-shopping-basket, .fa-laptop-code, .fa-key{
-    color: #f1c40f;
-    font-size:20px;
-    //margin-left:45%;
-    display: table-cell;
-    vertical-align: center;
-   
-}*/
+
 
 .service .col-lg-4, .col-m-12{
     padding-bottom: 50px;
@@ -243,9 +236,12 @@ font-family: $font-text;
 .card img{
     width: 100%;
     height: 300px;
-    object-fit: cover;
+    //object-fit: cover;
 }
+.card .card-image{
+    object-fit: cover;
 
+}
 .card{
     text-align: center;
     font-size:15px;
