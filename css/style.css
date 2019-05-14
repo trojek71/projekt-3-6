@@ -228,6 +228,13 @@ li a {
 
 .portfolio .card-body p {
   color: #95a5a6;
+  line-height: 1;
+  margin-top: 0;
+}
+
+.portfolio .card-body h2 {
+  margin-bottom: 7px;
+  line-height: 1;
 }
 
 /*FOOTER*/
@@ -249,7 +256,7 @@ li a {
 }
 
 .fa-twitter, .fa-facebook, .fa-pinterest, .fa-instagram {
-  background: black;
+  background: #1e272e;
   color: white;
   margin-top: 0;
   margin-bottom: 0;
@@ -278,6 +285,6 @@ li a {
 }
 
 .freebies a {
-  color: #34495e;
+  color: #1e272e;
 }
 /*# sourceMappingURL=style.css.map */
